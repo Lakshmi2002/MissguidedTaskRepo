@@ -1,6 +1,6 @@
 ﻿Feature: Checkout as a guest
 
-Scenario: Verify custmomer is able to buy a dress under 20 pounds
+Scenario: Verify customer is able to buy a dress under 20 pounds
 	Given I am on homepage
 	When I select the “Dresses” category	
 	Then dresses PLP is displayed
